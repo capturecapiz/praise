@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capiz Provincial Government | 2025 PRAISE Awards</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-merriweather {
+            font-family: 'Merriweather', serif;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(56, 0, 0, 0.6), rgba(62, 0, 0, 0.9)), url('image/cap.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .btn-primary {
+            @apply bg-yellow-500 text-red-900 font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-yellow-400 transition-transform transform hover:scale-105 duration-300 ease-in-out;
+        }
+        .btn-secondary {
+            @apply bg-transparent border-2 border-white text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-white hover:text-red-900 transition-all duration-300 ease-in-out;
+        }
+        .card {
+             @apply bg-white p-8 rounded-xl shadow-2xl transform transition-transform duration-500 hover:-translate-y-2 flex flex-col h-full;
+        }
+        .card-content {
+            @apply flex-grow;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-white/90 backdrop-blur-md shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="image/seal.png" alt="Capiz Provincial Government Logo" class="h-12 w-12 rounded-full border-2 border-red-800">
+                <div>
+                    <h1 class="text-lg font-extrabold text-red-900 tracking-wider">CAPIZ</h1>
+                    <p class="text-xs text-gray-500">Provincial Government</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="hero-bg text-white">
+        <div class="container mx-auto px-6 py-24 md:py-32 text-center">
+            <div class="bg-black bg-opacity-20 backdrop-blur-sm p-8 rounded-xl inline-block">
+                <h2 class="font-merriweather text-4xl md:text-6xl font-extrabold leading-tight tracking-tight mb-4">
+                    2025 PRAISE Awards
+                </h2>
+                <p class="text-lg md:text-xl text-yellow-300 font-light mb-2">Program on Awards and Incentives for Service Excellence</p>
+                <p class="max-w-3xl mx-auto text-gray-200 mb-10">
+                    Celebrating the unwavering dedication and outstanding contributions of Capiz's public servants.
+                </p>
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
+                    <a href="#nominate" class="btn-primary w-full md:w-auto">Nominate Now</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- About Section -->
+    <section id="about" class="py-10 md:py-15 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl md:text-4xl font-bold text-red-900 mb-4">About the PRAISE Awards</h3>
+            <div class="w-24 h-1 bg-yellow-500 mx-auto mb-8"></div>
+            <p class="max-w-4xl mx-auto text-lg text-gray-600 leading-relaxed">
+                The Program on Awards and Incentives for Service Excellence (PRAISE) is an initiative by the Civil Service Commission, adopted by the Provincial Government of Capiz. It aims to recognize and reward officials and employees for their exceptional performance, innovative ideas, and unwavering commitment to public service. This program fosters a culture of excellence, integrity, and accountability, inspiring every public servant to contribute to a more effective and responsive local government.
+            </p>
+        </div>
+    </section>
+
+    <!-- Action Buttons Section -->
+    <section id="nominate" class="py-20 md:py-28 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl md:text-4xl font-bold text-red-900 mb-4">Award Categories</h3>
+                <div class="w-24 h-1 bg-yellow-500 mx-auto mb-4"></div>
+                <p class="max-w-2xl mx-auto text-gray-600">
+                    Explore the different categories and nominate deserving individuals and offices for the 2025 PRAISE Awards.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Card 1: Outstanding Office -->
+                <a href="#" class="card text-center group">
+                     <div class="flex justify-center mb-4">
+                        <svg class="h-16 w-16 text-red-700 group-hover:text-yellow-500 transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.653-.122-1.28-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.653.122-1.28.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <h4 class="text-xl font-bold text-red-900 mb-2">Search for Most Outstanding Office</h4>
+                        <p class="text-gray-600 mb-4">Acknowledging top-performing offices with outstanding contributions.</p>
+                    </div>
+                    <span class="font-bold text-red-800 group-hover:text-yellow-600 transition-colors mt-auto">
+                        Nominate Now &rarr;
+                    </span>
+                </a>
+
+                <!-- Card 2: Outstanding Hospital -->
+                <a href="#" class="card text-center group">
+                    <div class="flex justify-center mb-4">
+                        <svg class="h-16 w-16 text-red-700 group-hover:text-yellow-500 transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <h4 class="text-xl font-bold text-red-900 mb-2">Search for Most Outstanding Hospital</h4>
+                        <p class="text-gray-600 mb-4">Recognizing excellence in healthcare services and patient care.</p>
+                    </div>
+                    <span class="font-bold text-red-800 group-hover:text-yellow-600 transition-colors mt-auto">
+                        Nominate Now &rarr;
+                    </span>
+                </a>
+                
+                <!-- Card 3: Outstanding Employee -->
+                <a href="#" class="card text-center group">
+                    <div class="flex justify-center mb-4">
+                        <svg class="h-16 w-16 text-red-700 group-hover:text-yellow-500 transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                    </div>
+                     <div class="card-content">
+                        <h4 class="text-xl font-bold text-red-900 mb-2">Search for Most Outstanding Employee</h4>
+                        <p class="text-gray-600 mb-4">Celebrating individual commitment, integrity, and excellence in service.</p>
+                    </div>
+                    <span class="font-bold text-red-800 group-hover:text-yellow-600 transition-colors mt-auto">
+                        Nominate Now &rarr;
+                    </span>
+                </a>
+                
+                <!-- Card 4: Outstanding Health Care Worker -->
+                <a href="#" class="card text-center group">
+                    <div class="flex justify-center mb-4">
+                        <!-- New Icon for Health Care Worker -->
+                        <svg class="h-16 w-16 text-red-700 group-hover:text-yellow-500 transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 12v8m-4-4h8"></path></svg>
+                    </div>
+                    <div class="card-content">
+                        <h4 class="text-xl font-bold text-red-900 mb-2">Search for Most Outstanding Health Care Worker</h4>
+                        <p class="text-gray-600 mb-4">Honoring the dedication and compassion of health professionals.</p>
+                    </div>
+                    <span class="font-bold text-red-800 group-hover:text-yellow-600 transition-colors mt-auto">
+                        Nominate Now &rarr;
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-red-900 text-white">
+        <div class="container mx-auto px-6 py-12 text-center">
+            <p>&copy; 2025 Provincial Government of Capiz. All Rights Reserved.</p>
+            <p class="text-sm text-gray-400 mt-2">Provincial Capitol, Roxas City, Capiz, Philippines</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
